@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/pickFromCamera"
+        android:title="Camera"
+        android:icon="@drawable/ic_pick_from_camera_24dp"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/pickFromGallery"
+        android:title="Gallery"
+        android:icon="@drawable/ic_pick_from_gallery_24dp"
+        app:showAsAction="always"/>
+</menu>
